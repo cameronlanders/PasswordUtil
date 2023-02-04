@@ -39,7 +39,7 @@ After adding the class to your application, simply call the GenerateStrongPasswo
 
 `string strPassword = util.PasswordUtil.GenerateStrongPassword();` 
 
-Note that the class is encapsulted in a namespace called "`util`". This is the reason the method call is prefaced in that way. You can change the name space to match whatever namespace your application uses, in which case you can drop the "`util.`" verbiage from the method call.
+Note that the class is encapsulted in a namespace called "`util`". This is the reason the method call is prefaced in that way. You can change this to match whatever namespace your application uses, in which case you can drop the "`util.`" verbiage from the method call.
 
 ## Strong Password Definition
 The strong password returned from the above method call will be a 16-character string, which is guaranteed to be comprised of randomly-selected upper-or-lower-case alpha characters, one or more randomly-chosen nummeric digits (0-9) and one or more special characters chosen randomly from these: "*", "#", "$", "%", "!", and "?".
